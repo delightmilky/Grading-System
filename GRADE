@@ -1,0 +1,13 @@
+while True:
+    try:
+        grade = int(input("ENTER GRADE IN MATH: "))
+        grade = int(input("ENTER GRADE IN ENGLISH: "))
+        grade = int(input("ENTER GRADE IN SCIENCE: "))
+        grade = int(input("ENTER GRADE IN AP: "))
+        grade = int(input("ENTER GRADE IN T.L.E: "))
+        grade = int(input("ENTER GRADE IN FILIPINO: "))
+        grade = int(input("ENTER GRADE IN MAPEH: "))
+    except ValueError:
+        print("Try again. Please enter your grade.")
+    else:
+        break
